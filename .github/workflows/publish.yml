@@ -4,6 +4,7 @@ on:
   push:
     tags:
       - "v*"  # Triggers when a new version tag is pushed (e.g., v0.1.5)
+  workflow_dispatch:  # Allows manual execution
 
 jobs:
   build-and-publish:
